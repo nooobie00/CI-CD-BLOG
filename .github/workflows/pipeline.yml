@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "24"
       - name: Install dependencies
-        run: npm Install
+        run: npm install
       - name: Check styles
         run: npm run lint
       - name: Run test
